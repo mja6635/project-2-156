@@ -3,26 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title of page when user logs on-->
     <title>project-2-156</title>
-    <script type="module" src="./rpg-me.js"></script>
     <style>
       body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #1e1e1e;
-        color: #f5f5f5;
+        background-color: var(--ddd-theme-default-potentialMidnight);
+        color: var(--ddd-theme-default-keystoneYellow);
       }
       h1 {
         text-align: center;
-        font-size: 2rem;
+        justify-content: center;
         margin: 20px 0;
       }
     </style>
   </head>
   <body>
     <h1>RPG Character selection</h1>
-    <rpg-new></rpg-new>
+    <rpg-me></rpg-me>
   </body>
-</html>
+  <script type="module" src="./rpg-me.js"></script>
+  </html>

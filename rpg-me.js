@@ -1,5 +1,4 @@
 
-
 //all imports and downloads via npm
 import { LitElement, html, css } from "lit";
 import { DDDSuper } from "@haxtheweb/d-d-d/d-d-d.js";
@@ -141,6 +140,8 @@ export class Rpgme extends DDDSuper(I18NMixin(LitElement)) {
     ];
   }
 
+  //the HTML that will be called over to index
+
   render() {
     return html`
       <div class="container">
@@ -272,6 +273,7 @@ export class Rpgme extends DDDSuper(I18NMixin(LitElement)) {
       <div id="notification" class="notification"></div>
     `;
   }
+  //settings for seed intructions
 
   _applySeedToSettings() {
     const seed = this.characterSettings.seed;
